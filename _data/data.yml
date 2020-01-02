@@ -34,12 +34,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+        I am a Math of Computation senior at UCLA. This past summer, I was a software engineering 
+        intern at WeWork, as part of their Space Kit team devising algorithms to match spatial
+        geometry of different types of rooms. I have also interned at startups before, and am 
+        passionate about data journalism and writing outside of software engineering.
      
 education:
     - degree: BSc in Math of Computation
       university: University of California, Los Angeles
       time: 2016 - 2020
-      details:
+      details: 
       
 experiences:
     - role: Software Engineering Intern 
@@ -65,6 +69,16 @@ experiences:
         by partitioning the table based on filters like color, clothing type, price range, etc.. 
         and worked with multiple AWS technologies to move data through different AWS structures.
         
+    - role: Stack Developer
+      time: September, 2019 - present
+      company: The Stack, Los Angeles
+      details: |
+            - Developed  a story elucidating the hidden costs of being a UCLA student.
+            - Visualizations include a choropleth  maps to show cost distribution across the US 
+            and globe created  using QGIS, interactive charts using ChartJS and a cost calculator 
+            created using Javascript to help  students find their true price of college based on 
+            their background. 
+        
     - role: Web Developer
       time: April, 2019 - June, 2019
       company: The Daily Bruin (External Sites), Los Angeles
@@ -72,13 +86,6 @@ experiences:
             Create and deploy interactive or flat pages and every week as part of Daily Bruin's 
             External Sites team for UCLA events like Spring Sing, UCLA’s volleyball tournament, 
             etc. or for Daily Bruin articles using React, Gatsby, and Typescript.
-            
-    - role: Front-End Developer
-      time: April, 2019 - present
-      company: UCLA DevX, Los Angeles
-      details: |
-            Working on Front-End design using AngularJS for Mappening, which puts all UCLA events 
-            on a map and allows you to filter them by category.
       
     - role: Data Blog Writer
       time: April, 2019 - June, 2019    
@@ -88,89 +95,84 @@ experiences:
             a Medium post
             - Used data to describe factors that make you more likely to get arrested, including 
             time, age, location and gender with highest frequency of arrests and a heat map 
-            describing spread of crime.
-      
-    - role: Data Journalist
-      time: 
-      company: The Stack, Los Angeles
+            describing spread of crime. 
+            
+     - role: Front-End Developer
+      time: April, 2019 - June, 2019
+      company: UCLA DevX, Los Angeles
       details: |
-            - Developed  a story elucidating the hidden costs of being a UCLA student.
-            - Visualizations include a choropleth  maps to show cost distribution across the US 
-            and globe created  using QGIS, interactive charts using ChartJS and a cost calculator 
-            created using Javascript to help  students find their true price of college based on 
-            their background. 
-       
+            Working on Front-End design using AngularJS for Mappening, which puts all UCLA events 
+            on a map and allows you to filter them by category.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     assignments:
-      - title: Velocity
+      - title: Squad (Best Use of HERE API)
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Developed a web app that connects you with registered callers nearby in case of an emergency or for support if you are walking alone, or it lets you call the closest police station - Location data captured using jQuery, phone calls routed using Twilio’s API and closest match found using HERE API with backend logic implemented in Python and deployed locally using Flask."
 
-      - title: DevStudio
+      - title: ElmoBot 
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "- Developed a chatbot that matches you to the movie character you are most like using IBM Watson’s Assistant API, Personality Insights API and IBM Cloudant in Python - Scraped thousands of movie scripts, separated each character’s dialogue and fed to the Personality Insights API. Similarly, generated Personality Insights using user conversation with the chatbot - Wrote a least squares algorithm to match the movie personality user is most similar to"
 
-      - title: Tempo
+      - title: Focusbunny
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "- Developed the website using HTML, CSS, JavaScript and Bootstrap and integrated a Stripe payment portal (site is live at focusbunny.com) for a startup (fidget spinner with a pen for better focus) - Developed a logo, design and illustrations for the page, created the site map and a wireframe and optimized search engine results"
 
-      - title: Atom
+      - title: Grocers, LA Hacks
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "- Developed the front-end of a web app that generates a QR code for a user that is scanned at a grocery store checkout and which auto-generates a shopping list by predicting when you will run out of items and suggesting new recipes - Designed a logo, used jQuery to generate QR codes and used an API from Yummly to suggest recipes."
 
-      - title: Delta
+      - title: Nachenblaster
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Coded hard logic of a video game using inheritance and polymorphism for different game objects (like spaceships, stars, bullets, etc.) in C++ as part of class project and secured a full score"
 
 publications:
-    title: Publications
+    title: Data Journalism and Writing
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: "Visualization on Crime in Los Angeles"
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Radhika Ahuja, Boyang Yu
+        conference: ● Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
+        ● Used Python libraries like pandas and matplotlib  to describe factors that make you more likely to 
+        get arrested, including time, age, location and gender with highest frequency of arrests and a heat 
+        map describing spread of crime created using ggplot in R. 
+        
+      - title: "Oil and Gas Extraction and the Effects on Public Schools in Los Angeles"
+        link: ""
+        authors: Radhika Ahuja
+        conference: Used QGIS to plot public schools and oil wells and create buffers of overlapping regions. 
+        Also  created a choropleth map showing correlation between income distribution and the likelihood of a 
+        school being near an oil well 
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "Hidden Costs of Being a College Student"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Radhika Ahuja, Annie Zhang and Maddy Blasingame
+        conference: ● Developed  a story elucidating the hidden costs of being a UCLA student.  
+        ● Visualizations include a choropleth  maps to show cost distribution across the US and globe created 
+        using QGIS, interactive charts using ChartJS and a cost calculator created using Javascript to help  
+        students find their true price of college based on their background. 
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python, C++, Go, C
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: HTML, CSS, Javascript/Typescript, React
         level: 98%
 
-      - name: Angular
+      - name: numpy, pandas, matplotlib, BeautifulSoup
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Linux, Bash/Shell, Git, Shell Scripting, Vim, GDB, QGIS 
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Microsoft Suite, AWS
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
