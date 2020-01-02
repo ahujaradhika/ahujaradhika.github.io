@@ -103,3 +103,77 @@ experiences:
       details: |
             Working on Front-End design using AngularJS for Mappening, which puts all UCLA events 
             on a map and allows you to filter them by category.
+            
+
+projects:
+    title: Projects
+    intro: 
+    assignments:
+      - title: Squad (Best Use of HERE API)
+        link: "#hook"
+        tagline: "Developed a web app that connects you with registered callers nearby in case of an emergency or for support if you are walking alone, or it lets you call the closest police station - Location data captured using jQuery, phone calls routed using Twilio’s API and closest match found using HERE API with backend logic implemented in Python and deployed locally using Flask."
+
+      - title: ElmoBot 
+        link: "#"
+        tagline: "- Developed a chatbot that matches you to the movie character you are most like using IBM Watson’s Assistant API, Personality Insights API and IBM Cloudant in Python - Scraped thousands of movie scripts, separated each character’s dialogue and fed to the Personality Insights API. Similarly, generated Personality Insights using user conversation with the chatbot - Wrote a least squares algorithm to match the movie personality user is most similar to"
+
+      - title: Focusbunny
+        link: "#"
+        tagline: "- Developed the website using HTML, CSS, JavaScript and Bootstrap and integrated a Stripe payment portal (site is live at focusbunny.com) for a startup (fidget spinner with a pen for better focus) - Developed a logo, design and illustrations for the page, created the site map and a wireframe and optimized search engine results"
+
+      - title: Grocers, LA Hacks
+        link: "#"
+        tagline: "- Developed the front-end of a web app that generates a QR code for a user that is scanned at a grocery store checkout and which auto-generates a shopping list by predicting when you will run out of items and suggesting new recipes - Designed a logo, used jQuery to generate QR codes and used an API from Yummly to suggest recipes."
+
+      - title: Nachenblaster
+        link: "#"
+        tagline: "Coded hard logic of a video game using inheritance and polymorphism for different game objects (like spaceships, stars, bullets, etc.) in C++ as part of class project and secured a full score"
+
+publications:
+    title: Data Journalism and Writing
+    intro: |
+    papers:
+      - title: "Visualization on Crime in Los Angeles"
+        link: "#"
+        authors: Radhika Ahuja, Boyang Yu
+        conference: - Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
+        - Used Python libraries like pandas and matplotlib  to describe factors that make you more likely to 
+        get arrested, including time, age, location and gender with highest frequency of arrests and a heat 
+        map describing spread of crime created using ggplot in R. 
+        
+      - title: "Oil and Gas Extraction and the Effects on Public Schools in Los Angeles"
+        link: ""
+        authors: Radhika Ahuja
+        conference: Used QGIS to plot public schools and oil wells and create buffers of overlapping regions. 
+        Also  created a choropleth map showing correlation between income distribution and the likelihood of a 
+        school being near an oil well 
+
+      - title: "Hidden Costs of Being a College Student"
+        link: "#"
+        authors: Radhika Ahuja, Annie Zhang and Maddy Blasingame
+        conference: - Developed  a story elucidating the hidden costs of being a UCLA student.  
+        - Visualizations include a choropleth  maps to show cost distribution across the US and globe created 
+        using QGIS, interactive charts using ChartJS and a cost calculator created using Javascript to help  
+        students find their true price of college based on their background. 
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python, C++, Go, C
+        level: 98%
+
+      - name: HTML, CSS, Javascript/Typescript, React
+        level: 98%
+
+      - name: numpy, pandas, matplotlib, BeautifulSoup
+        level: 98%
+
+      - name: Linux, Bash/Shell, Git, Shell Scripting, Vim, GDB, QGIS 
+        level: 95%
+
+      - name: Microsoft Suite, AWS
+        level: 85%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
