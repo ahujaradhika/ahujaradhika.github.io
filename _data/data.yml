@@ -118,10 +118,13 @@ publications:
     title: Data Journalism and Writing
     intro: |
     papers:
-      - title: The Art of Computer Programming
+      - title: Visualization on Crime in Los Angeles
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Writer/Developer
+        conference: Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
+        - Used Python libraries like pandas and matplotlib  to describe factors that make you more likely to 
+        get arrested, including time, age, location and gender with highest frequency of arrests and a heat 
+        map describing spread of crime created using ggplot in R. 
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         link: "#"
