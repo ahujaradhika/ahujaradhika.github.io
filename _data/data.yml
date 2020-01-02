@@ -115,31 +115,23 @@ projects:
         tagline: "Coded hard logic of a video game using inheritance and polymorphism for different game objects (like spaceships, stars, bullets, etc.) in C++ as part of class project and secured a full score"
 
 publications:
-    title: Data Journalism and Writing
+    title: Publications
     intro: |
     papers:
-      - title: "Visualization on Crime in Los Angeles"
+      - title: The Art of Computer Programming
         link: "#"
-        authors: Radhika Ahuja, Boyang Yu
-        conference: Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
-        - Used Python libraries like pandas and matplotlib  to describe factors that make you more likely to 
-        get arrested, including time, age, location and gender with highest frequency of arrests and a heat 
-        map describing spread of crime created using ggplot in R. 
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
 
-      - title: "Oil and Gas Extraction and the Effects on Public Schools in Los Angeles"
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         link: "#"
-        authors: Radhika Ahuja
-        conference: Used QGIS to plot public schools and oil wells and create buffers of overlapping regions. 
-        Also  created a choropleth map showing correlation between income distribution and the likelihood of a 
-        school being near an oil well
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: "Hidden Costs of Being a College Student"
+      - title: A syntax directed compiler for Algol 60
         link: "#"
-        authors: Radhika Ahuja, Annie Zhang, Maddy Blasingame
-        conference: Developed  a story elucidating the hidden costs of being a UCLA student.  
-        - Visualizations include a choropleth  maps to show cost distribution across the US and globe created 
-        using QGIS, interactive charts using ChartJS and a cost calculator created using Javascript to help  
-        students find their true price of college based on their background. 
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
