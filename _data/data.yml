@@ -30,14 +30,7 @@ sidebar:
 
       - idiom: Hindi
         level: Native
-
-career-profile:
-    title: Career Profile
-    summary: |
-        I am a Math of Computation senior at UCLA. This past summer, I was a software engineering 
-        intern at WeWork, as part of their Space Kit team devising algorithms to match spatial
-        geometry of different types of rooms. I have also interned at startups before, and am 
-        passionate about data journalism and writing outside of software engineering.
+        
 education:
     - degree: BSc in Math of Computation
       university: University of California, Los Angeles
