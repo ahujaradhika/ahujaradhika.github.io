@@ -118,7 +118,7 @@ publications:
     title: Data Journalism and Writing
     intro: |
     papers:
-      - title: Visualization on Crime in Los Angeles
+      - title: The Art of Computer Programming
         link: "#"
         authors: Writer/Developer
         conference: Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
