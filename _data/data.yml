@@ -114,35 +114,6 @@ projects:
         link: "#"
         tagline: "Coded hard logic of a video game using inheritance and polymorphism for different game objects (like spaceships, stars, bullets, etc.) in C++ as part of class project and secured a full score"
 
-publications:
-    title:  Data Journalism and Writing
-    intro: |
-
-    papers:
-      - title: "Visualization on Crime in Los Angeles"
-        link: "#"
-        authors: Radhika Ahuja, Boyang Yu
-        conference: Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
-        - Used Python libraries like pandas and matplotlib  to describe factors that make you more likely to 
-        get arrested, including time, age, location and gender with highest frequency of arrests and a heat 
-        map describing spread of crime created using ggplot in R. 
-
-      - title: "Oil and Gas Extraction and the Effects on Public Schools in Los Angeles"
-        link: "#"
-        authors: Radhika Ahuja
-        conference: Used QGIS to plot public schools and oil wells and create buffers of overlapping regions. 
-        Also  created a choropleth map showing correlation between income distribution and the likelihood of a 
-        school being near an oil well 
-
-      - title: "Hidden Costs of Being a College Student"
-        link: "#"
-        authors: Radhika Ahuja, Annie Zhang and Maddy Blasingame
-        conference: Developed  a story elucidating the hidden costs of being a UCLA student.  
-        - Visualizations include a choropleth  maps to show cost distribution across the US and globe created 
-        using QGIS, interactive charts using ChartJS and a cost calculator created using Javascript to help  
-        students find their true price of college based on their background. 
-
-
 skills:
     title: Skills &amp; Proficiency
 
