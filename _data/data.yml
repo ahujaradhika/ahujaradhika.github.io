@@ -133,38 +133,34 @@ publications:
         authors: Writer/Developer
         conference: Developed a story elucidating the hidden costs of being a UCLA student. Visualizations include a choropleth  maps to show cost distribution across the US and globe created using QGIS, interactive charts using ChartJS and a cost calculator created using Javascript to help students find their true price of college based on their background.
 
-      - title: The Global Times
-        link: "#"
-        authors: Writer/Developer
-        conference: Won honors most notably as “Best Editor” and “Best Story” among 200 vying contenders from 10 schools. Responsibilities, apart from writing, developing paginations and brainstorming with writers, included tracking and editing other writers’ articles on my team, and working for shorter-term and more fast-paced MUN newsletters. Interviewed visiting guests at the school including the ambassadors of several countries, an army chief and the health minister of India. 
-
       - title: The Fountainhead Essay Contest
         link: "#"
         authors: Semi-Finalist
         conference: Selected among the top 100 semifinalists with about 2000 applicants for writing an essay about the political and economic philosophies discussed in Ayn Rand’s “The Fountainhead”.
-        
+
+      - title: The Global Times
+        link: "#"
+        authors: Writer/Developer
+        conference: Won honors most notably as “Best Editor” and “Best Story” among 200 vying contenders from 10 schools. Responsibilities, apart from writing, developing paginations and brainstorming with writers, included tracking and editing other writers’ articles on my team, and working for shorter-term and more fast-paced MUN newsletters. Interviewed visiting guests at the school including the ambassadors of several countries, an army chief and the health minister of India.   
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: C++, Python, Golang, C
+        level: 0%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: HTML, CSS, Javascript/Typescript
+        level: 0%
 
-      - name: Angular
-        level: 98%
+      - name: numPy, pandas, matplotlib, BeautifulSoup 
+        level: 0%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Linux/Bash, Git, Shell Scripting, GDB, Vim
+        level: 0%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: QGIS, AWS, Microsoft Suite
+        level: 0%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
