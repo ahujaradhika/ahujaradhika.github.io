@@ -47,43 +47,65 @@ education:
       details:
       
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineering Intern 
+      time: June, 2019 - August, 2019
+      company: WeWork, San Francisco
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+         - Devised an algorithm in Go for comparison of spatial geometry of rooms to maintain 
+         a stable database between new updates of data. 
+         - Fine-tuned a threshold to give rooms a more human definition, i.e., included cases 
+         with slight shifts in walls, beams or room placement.
+         - Optimized the algorithm using goroutines after tracing using jaeger to reduce match 
+         time per room. For an average of 50 rooms per floor, and thus ~2500 comparisons per 
+         floor, optimizations brought down the average time by half from 60ms to 30ms.
+
+    - role: Backend Intern
+      time: January, 2019 - June, 2019
+      company: Stylify, Los Angeles
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Integrating a Pinterest and Instagram login to the Stylify website using Python, 
+        which is a product that picks up your style preferences from your social media and 
+        recommends clothes
+        - Used Hive in AWS’ Elastic MapReduce to implement an efficient search for products 
+        by partitioning the table based on filters like color, clothing type, price range, etc.. 
+        and worked with multiple AWS technologies to move data through different AWS structures.
+        
+    - role: Web Developer
+      time: April, 2019 - June, 2019
+      company: The Daily Bruin (External Sites), Los Angeles
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+            Create and deploy interactive or flat pages and every week as part of Daily Bruin's 
+            External Sites team for UCLA events like Spring Sing, UCLA’s volleyball tournament, 
+            etc. or for Daily Bruin articles using React, Gatsby, and Typescript.
+            
+    - role: Front-End Developer
+      time: April, 2019 - present
+      company: UCLA DevX, Los Angeles
+      details: |
+            Working on Front-End design using AngularJS for Mappening, which puts all UCLA events 
+            on a map and allows you to filter them by category.
+      
+    - role: Data Blog Writer
+      time: April, 2019 - June, 2019    
+      company: DataRes, Los Angeles
+      details: | 
+            - Worked with a dataset about crime in LA to derive meaningful insights and present 
+            a Medium post
+            - Used data to describe factors that make you more likely to get arrested, including 
+            time, age, location and gender with highest frequency of arrests and a heat map 
+            describing spread of crime.
+      
+    - role: Data Journalist
+      time: 
+      company: The Stack, Los Angeles
+      details: |
+            - Developed  a story elucidating the hidden costs of being a UCLA student.
+            - Visualizations include a choropleth  maps to show cost distribution across the US 
+            and globe created  using QGIS, interactive charts using ChartJS and a cost calculator 
+            created using Javascript to help  students find their true price of college based on 
+            their background. 
+       
+
 projects:
     title: Projects
     intro: >
