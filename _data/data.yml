@@ -19,7 +19,7 @@ sidebar:
     github: ahujaradhika
     gitlab:
     bitbucket:
-    twitter: 
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -38,15 +38,14 @@ career-profile:
         intern at WeWork, as part of their Space Kit team devising algorithms to match spatial
         geometry of different types of rooms. I have also interned at startups before, and am 
         passionate about data journalism and writing outside of software engineering.
-     
 education:
     - degree: BSc in Math of Computation
       university: University of California, Los Angeles
       time: 2016 - 2020
-      details: 
-      
+      details: |
+
 experiences:
-    - role: Software Engineering Intern 
+    - role: Software Engineering Intern
       time: June, 2019 - August, 2019
       company: WeWork, San Francisco
       details: |
@@ -57,7 +56,6 @@ experiences:
          - Optimized the algorithm using goroutines after tracing using jaeger to reduce match 
          time per room. For an average of 50 rooms per floor, and thus ~2500 comparisons per 
          floor, optimizations brought down the average time by half from 60ms to 30ms.
-
     - role: Backend Intern
       time: January, 2019 - June, 2019
       company: Stylify, Los Angeles
@@ -68,7 +66,6 @@ experiences:
         - Used Hive in AWS’ Elastic MapReduce to implement an efficient search for products 
         by partitioning the table based on filters like color, clothing type, price range, etc.. 
         and worked with multiple AWS technologies to move data through different AWS structures.
-        
     - role: Stack Developer
       time: September, 2019 - present
       company: The Stack, Los Angeles
@@ -77,8 +74,7 @@ experiences:
             - Visualizations include a choropleth  maps to show cost distribution across the US 
             and globe created  using QGIS, interactive charts using ChartJS and a cost calculator 
             created using Javascript to help  students find their true price of college based on 
-            their background. 
-        
+            their background.
     - role: Web Developer
       time: April, 2019 - June, 2019
       company: The Daily Bruin (External Sites), Los Angeles
@@ -86,94 +82,88 @@ experiences:
             Create and deploy interactive or flat pages and every week as part of Daily Bruin's 
             External Sites team for UCLA events like Spring Sing, UCLA’s volleyball tournament, 
             etc. or for Daily Bruin articles using React, Gatsby, and Typescript.
-      
-    - role: Data Blog Writer
-      time: April, 2019 - June, 2019    
-      company: DataRes, Los Angeles
-      details: | 
-            - Worked with a dataset about crime in LA to derive meaningful insights and present 
-            a Medium post
-            - Used data to describe factors that make you more likely to get arrested, including 
-            time, age, location and gender with highest frequency of arrests and a heat map 
-            describing spread of crime. 
-            
-     - role: Front-End Developer
+    - role: Front-End Developer
       time: April, 2019 - June, 2019
-      company: UCLA DevX, Los Angeles
+      company: UCLA DevX (Mappening), Los Angeles
       details: |
             Working on Front-End design using AngularJS for Mappening, which puts all UCLA events 
             on a map and allows you to filter them by category.
             
-
 projects:
     title: Projects
-    intro: 
+    intro: >
+
     assignments:
       - title: Squad (Best Use of HERE API)
         link: "#hook"
         tagline: "Developed a web app that connects you with registered callers nearby in case of an emergency or for support if you are walking alone, or it lets you call the closest police station - Location data captured using jQuery, phone calls routed using Twilio’s API and closest match found using HERE API with backend logic implemented in Python and deployed locally using Flask."
 
-      - title: ElmoBot 
+      - title: ElmoBot
         link: "#"
-        tagline: "- Developed a chatbot that matches you to the movie character you are most like using IBM Watson’s Assistant API, Personality Insights API and IBM Cloudant in Python - Scraped thousands of movie scripts, separated each character’s dialogue and fed to the Personality Insights API. Similarly, generated Personality Insights using user conversation with the chatbot - Wrote a least squares algorithm to match the movie personality user is most similar to"
+        tagline: "Developed a chatbot that matches you to the movie character you are most like using IBM Watson’s Assistant API, Personality Insights API and IBM Cloudant in Python - Scraped thousands of movie scripts, separated each character’s dialogue and fed to the Personality Insights API. Similarly, generated Personality Insights using user conversation with the chatbot - Wrote a least squares algorithm to match the movie personality user is most similar to"
 
       - title: Focusbunny
         link: "#"
-        tagline: "- Developed the website using HTML, CSS, JavaScript and Bootstrap and integrated a Stripe payment portal (site is live at focusbunny.com) for a startup (fidget spinner with a pen for better focus) - Developed a logo, design and illustrations for the page, created the site map and a wireframe and optimized search engine results"
+        tagline: "Developed the website using HTML, CSS, JavaScript and Bootstrap and integrated a Stripe payment portal (site is live at focusbunny.com) for a startup (fidget spinner with a pen for better focus) - Developed a logo, design and illustrations for the page, created the site map and a wireframe and optimized search engine results"
 
       - title: Grocers, LA Hacks
         link: "#"
-        tagline: "- Developed the front-end of a web app that generates a QR code for a user that is scanned at a grocery store checkout and which auto-generates a shopping list by predicting when you will run out of items and suggesting new recipes - Designed a logo, used jQuery to generate QR codes and used an API from Yummly to suggest recipes."
+        tagline: "Developed the front-end of a web app that generates a QR code for a user that is scanned at a grocery store checkout and which auto-generates a shopping list by predicting when you will run out of items and suggesting new recipes - Designed a logo, used jQuery to generate QR codes and used an API from Yummly to suggest recipes."
 
       - title: Nachenblaster
         link: "#"
         tagline: "Coded hard logic of a video game using inheritance and polymorphism for different game objects (like spaceships, stars, bullets, etc.) in C++ as part of class project and secured a full score"
 
 publications:
-    title: Data Journalism and Writing
+    title:  Data Journalism and Writing
     intro: |
+
     papers:
-      - title: "Visualization on Crime in Los Angeles"
+      - title: Visualization on Crime in Los Angeles
         link: "#"
         authors: Radhika Ahuja, Boyang Yu
-        conference: - Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
+        conference: Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post  
         - Used Python libraries like pandas and matplotlib  to describe factors that make you more likely to 
         get arrested, including time, age, location and gender with highest frequency of arrests and a heat 
         map describing spread of crime created using ggplot in R. 
-        
-      - title: "Oil and Gas Extraction and the Effects on Public Schools in Los Angeles"
-        link: ""
+
+      - title: Oil and Gas Extraction and the Effects on Public Schools in Los Angeles
+        link: "#"
         authors: Radhika Ahuja
         conference: Used QGIS to plot public schools and oil wells and create buffers of overlapping regions. 
         Also  created a choropleth map showing correlation between income distribution and the likelihood of a 
         school being near an oil well 
 
-      - title: "Hidden Costs of Being a College Student"
+      - title: Hidden Costs of Being a College Student
         link: "#"
-        authors: Radhika Ahuja, Annie Zhang and Maddy Blasingame
-        conference: - Developed  a story elucidating the hidden costs of being a UCLA student.  
+        authors: Edgar T. Irons
+        conference: Developed  a story elucidating the hidden costs of being a UCLA student.  
         - Visualizations include a choropleth  maps to show cost distribution across the US and globe created 
         using QGIS, interactive charts using ChartJS and a cost calculator created using Javascript to help  
         students find their true price of college based on their background. 
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python, C++, Go, C
+      - name: Python & Django
         level: 98%
 
-      - name: HTML, CSS, Javascript/Typescript, React
+      - name: Javascript & jQuery
         level: 98%
 
-      - name: numpy, pandas, matplotlib, BeautifulSoup
+      - name: Angular
         level: 98%
 
-      - name: Linux, Bash/Shell, Git, Shell Scripting, Vim, GDB, QGIS 
+      - name: HTML5 & CSS
         level: 95%
 
-      - name: Microsoft Suite, AWS
+      - name: Ruby on Rails
         level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
