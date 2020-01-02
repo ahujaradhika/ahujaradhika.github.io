@@ -1,7 +1,7 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
+title: Radhika Ahuja
 url: 'http://ahujaradhika.github.io'
 baseurl: '/resume' #change it according to your repository name
 description: Radhika Ahuja's resume
