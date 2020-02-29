@@ -63,11 +63,12 @@ experiences:
       time: September, 2019 - present
       company: The Stack, Los Angeles
       details: |
-            - Developed  a story elucidating the hidden costs of being a UCLA student.
-            - Visualizations include a choropleth  maps to show cost distribution across the US 
-            and globe created  using QGIS, interactive charts using ChartJS and a cost calculator 
-            created using Javascript to help  students find their true price of college based on 
-            their background.
+            - Develop stories related to student-related issues and use data to offer analysis and visualizations.
+            - Visualizations include interactive choropleth maps using QGIS software or Javascript libraries like Leaflet, 
+            and other interactive charts using ChartJS.
+            - Pieces also include data analysis using Python libraries like pandas and numpy, 
+            and other componenets developed for the web like a cost calculator made using 
+            Javascript to help students estimate their true price of college.
     - role: Web Developer
       time: April, 2019 - June, 2019
       company: The Daily Bruin (External Sites), Los Angeles
@@ -75,18 +76,16 @@ experiences:
             Create and deploy interactive or flat pages and every week as part of Daily Bruin's 
             External Sites team for UCLA events like Spring Sing, UCLA’s volleyball tournament, 
             etc. or for Daily Bruin articles using React, Gatsby, and Typescript.
-    - role: Front-End Developer
-      time: April, 2019 - June, 2019
-      company: UCLA DevX (Mappening), Los Angeles
-      details: |
-            Working on Front-End design using AngularJS for Mappening, which puts all UCLA events 
-            on a map and allows you to filter them by category.
             
 projects:
     title: Projects
     intro: >
 
     assignments:
+      - title: ChartJS-UI
+        link: "https://github.com/ahujaradhika/chartjs-ui"
+        tagline: "A tool to create responsive and interactive charts using ChartJS with a web app that lets you enter a dataset and produces an interactive chart, and a developer version that offers command line tools for more advanced options. Developed initially as an in-house tool for The Stack, UCLA's online data journalism website, with the goal to eventually be an open-source tool available to all"
+
       - title: Squad (Best Use of HERE API)
         link: "https://github.com/ahujaradhika/call-me-maybe"
         tagline: "Developed a web app that connects you with registered callers nearby in case of an emergency or for support if you are walking alone, or it lets you call the closest police station - Location data captured using jQuery, phone calls routed using Twilio’s API and closest match found using HERE API with backend logic implemented in Python and deployed locally using Flask."
@@ -111,6 +110,16 @@ publications:
     title: Data Journalism and Writing
     intro: |
     papers:
+      - title: Analysis of Presidential Candidates Using Their Twitter
+        link: "https://github.com/dailybruin/the-stack/tree/primaries"
+        authors: Developer
+        conference: Scraped twitter feeds of all US Presidential Candidates, and generated Personality Insights using IBM Watson's Personality Insights API. Also developed interactive bubble and bar charts using ChartJS, along with front-end component to display information about personality traits and keywords most frequently used by candidates
+
+      - title: Hidden Costs of Being a Student
+        link: "https://stack.dailybruin.com/2020/01/17/student-expenses/"
+        authors: Writer/Developer
+        conference: Estimated different costs of being a student based on what state or country you're from, and your living preferences. Created interactive map using Leaflet to show distribution of college expenses, a customized cost calculator in Javascript and interactive bar charts using ChartJS
+
       - title: Visualization on Crime in Los Angeles
         link: "https://medium.com/@ucladatares/visualizations-on-crime-in-los-angeles-7013cd8f9c8b"
         authors: Writer/Developer
