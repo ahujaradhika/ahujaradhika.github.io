@@ -83,7 +83,7 @@ projects:
 
     assignments:
       - title: ChartJS-UI
-        link: "https://github.com/ahujaradhika/chartjs-ui"
+        link: "https://github.com/dailybruin/internal-tools.sprint.graphmaker#running-backend"
         tagline: "A tool to create responsive and interactive charts using ChartJS with a web app that lets you enter a dataset and produces an interactive chart, and a developer version that offers command line tools for more advanced options. Developed initially as an in-house tool for The Stack, UCLA's online data journalism website, with the goal to eventually be an open-source tool available to all"
 
       - title: Squad (Best Use of HERE API)
