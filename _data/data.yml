@@ -115,7 +115,7 @@ publications:
         authors: Developer
         conference: Scraped twitter feeds of all US Presidential Candidates, and generated Personality Insights using IBM Watson's Personality Insights API. Also developed interactive bubble and bar charts using ChartJS, along with front-end component to display information about personality traits and keywords most frequently used by candidates
 
-      - title: Hidden Costs of Being a Student
+      - title: Hidden Costs of Being a College Student
         link: "https://stack.dailybruin.com/2020/01/17/student-expenses/"
         authors: Writer/Developer
         conference: Estimated different costs of being a student based on what state or country you're from, and your living preferences. Created interactive map using Leaflet to show distribution of college expenses, a customized cost calculator in Javascript and interactive bar charts using ChartJS
@@ -129,11 +129,6 @@ publications:
         link: "https://ahujaradhika.github.io/oil-fracking/"
         authors: Writer/Developer
         conference: Used QGIS to plot public schools and oil wells and create buffers of overlapping regions. Also  created a choropleth map showing correlation between income distribution and the likelihood of a school being near an oil well 
-
-      - title: Hidden Costs of Being a College Student
-        link: "https://ahujaradhika.github.io/stack-student-expenses/"
-        authors: Writer/Developer
-        conference: Developed a story elucidating the hidden costs of being a UCLA student. Visualizations include a choropleth  maps to show cost distribution across the US and globe created using QGIS, interactive charts using ChartJS and a cost calculator created using Javascript to help students find their true price of college based on their background.
 
       - title: The Fountainhead Essay Contest
         link: ""
