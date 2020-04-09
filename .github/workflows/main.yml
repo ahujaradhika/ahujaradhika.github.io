@@ -9,7 +9,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1.2.0
       - name: Run python
-        run: ls
+        run: python test.py
       - name: Trigger our build webhook on Netlify
         run: curl -X POST "https://api.netlify.com/build_hooks/${TOKEN}"
         env:
