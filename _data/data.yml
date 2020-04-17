@@ -64,6 +64,7 @@ experiences:
       company: The Stack, Los Angeles
       details: |
             - Develop stories related to student-related issues and use data to offer analysis and visualizations.
+            - Also developed several tools and methods to improve the organization's efficiency, like automated workflows and documentation processes.
             - Visualizations include interactive choropleth maps using QGIS software or Javascript libraries like Leaflet, 
             and other interactive charts using ChartJS.
             - Pieces also include data analysis using Python libraries like pandas and numpy, 
@@ -102,14 +103,20 @@ projects:
         link: "https://github.com/ahujaradhika/lahacks2019"
         tagline: "Developed the front-end of a web app that generates a QR code for a user that is scanned at a grocery store checkout and which auto-generates a shopping list by predicting when you will run out of items and suggesting new recipes - Designed a logo, used jQuery to generate QR codes and used an API from Yummly to suggest recipes."
 
-      - title: Nachenblaster
-        link: ""
-        tagline: "Coded hard logic of a video game using inheritance and polymorphism for different game objects (like spaceships, stars, bullets, etc.) in C++ as part of class project and secured a full score"
-
 publications:
     title: Data Journalism and Writing
     intro: |
     papers:
+      - title: School's Out, Zoom's In - Analysis of College Response to COVID-19
+        link: "https://stack.dailybruin.com/2020/04/15/covid-collegecompare/"
+        authors: Writer/Developer
+        conference: Developer a bar chart race shwoing the explosion of cases in the surrounding county of each college, with annotations for school's response events like switching to online instruction, postponing graduation, etc.
+
+      - title: Map of Westwood Businesses Operating During COVID-19
+        link: "https://dailybruin.com/2020/04/01/the-quad-ways-to-help-support-small-businesses-impacted-by-covid-19/"
+        authors: Developer
+        conference: Scraped information about local businesses and plotted on map using Leaflet
+
       - title: Analysis of Presidential Candidates Using Their Twitter
         link: "https://stack.dailybruin.com/2020/02/09/primaries/"
         authors: Developer
@@ -158,6 +165,3 @@ skills:
 
       - name: QGIS, AWS, Microsoft Suite
         level: 0%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
