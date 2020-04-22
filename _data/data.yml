@@ -107,6 +107,11 @@ publications:
     title: Data Journalism and Writing
     intro: |
     papers:
+      - title: Visualizing Los Angeles Hospitals, and Simulating COVID-19 on an Unprotected UCLA
+        link: "https://stack.dailybruin.com/2020/04/20/covid-hospitals/"
+        authors: Writer/Developer
+        conference: Developed story that maps hospitals in LA with information about the number of hospital beds and a chart projected into the future to estimate how the spread of COVID-19 within the UCLA community (if it opened up) would impact the local hospital capacity 
+
       - title: School's Out, Zoom's In - Analysis of College Response to COVID-19
         link: "https://stack.dailybruin.com/2020/04/15/covid-collegecompare/"
         authors: Writer/Developer
@@ -157,11 +162,5 @@ skills:
       - name: HTML, CSS, Javascript/Typescript
         level: 0%
 
-      - name: numPy, pandas, matplotlib, BeautifulSoup 
-        level: 0%
-
-      - name: Linux/Bash, Git, Shell Scripting, GDB, Vim
-        level: 0%
-
-      - name: QGIS, AWS, Microsoft Suite
+      - name: Linux/Bash, Git, Shell Scripting, GDB, Vim, QGIS
         level: 0%
