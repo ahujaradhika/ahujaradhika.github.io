@@ -12,14 +12,14 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: ahujaradhika@g.ucla.edu
+    email: ahujaradhika18@gmail.cpm
     phone: 310 954 7895
     website: ahujaradhika.github.io #do not add http://
     linkedin: www.linkedin.com/in/radhika-ahuja-b38899135/
     github: ahujaradhika
     gitlab:
     bitbucket:
-    twitter:
+    twitter: https://twitter.com/RadhikaAhuja10
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -38,6 +38,25 @@ education:
       details: |
 
 experiences:
+    - role: Associate Software Engineer
+      time: September, 2020 - Present
+      company: Moody's Analytics, San Francisco
+      details: | 
+         - Building and maintaining API written in Flask, servicing Kubernetes to clients.
+         - Mounted AWS FSx for Lustre onto Kubernetes to allow running data-heavy financial 
+         models through the API among other feature implementations and bug fixes.
+    - role: Developer
+      time: September, 2019 - present
+      company: The Daily Bruin (The Stack), Los Angeles
+      details: |
+        - Develop stories related to student-related issues and use data to offer analysis and visualizations.
+        - Developed a model visualizing the spread of coronavirus for the re-opening of schools which became the most
+        read Stack article to date and the most read Daily Bruin article that quarter with about 50K views, among other
+        articles about coronavirus, primary elections and mapping of useful resources in the student neighborhood.
+        - Developed several tools and methods to improve the organization's efficiency, like automated workflows and 
+        documentation processes, and trained and mentored other members to join the organization.
+        - Visualizations include interactive choropleth maps using QGIS software or Javascript libraries like Leaflet, 
+        and other interactive charts using ChartJS.
     - role: Software Engineering Intern
       time: June, 2019 - August, 2019
       company: WeWork, San Francisco
@@ -59,30 +78,21 @@ experiences:
         - Used Hive in AWS’ Elastic MapReduce to implement an efficient search for products 
         by partitioning the table based on filters like color, clothing type, price range, etc.. 
         and worked with multiple AWS technologies to move data through different AWS structures.
-    - role: Stack Developer
-      time: September, 2019 - present
-      company: The Stack, Los Angeles
-      details: |
-            - Develop stories related to student-related issues and use data to offer analysis and visualizations.
-            - Also developed several tools and methods to improve the organization's efficiency, like automated workflows and documentation processes.
-            - Visualizations include interactive choropleth maps using QGIS software or Javascript libraries like Leaflet, 
-            and other interactive charts using ChartJS.
-            - Pieces also include data analysis using Python libraries like pandas and numpy, 
-            and other componenets developed for the web like a cost calculator made using 
-            Javascript to help students estimate their true price of college.
-    - role: Web Developer
-      time: April, 2019 - June, 2019
-      company: The Daily Bruin (External Sites), Los Angeles
-      details: |
-            Create and deploy interactive or flat pages and every week as part of Daily Bruin's 
-            External Sites team for UCLA events like Spring Sing, UCLA’s volleyball tournament, 
-            etc. or for Daily Bruin articles using React, Gatsby, and Typescript.
             
 projects:
     title: Projects
     intro: >
 
     assignments:
+
+      - title: NYC Taxi-Cab Ride Fare Predictions
+        link: https://github.com/ahujaradhika/nyc-taxi-fare-prediction
+        tagline: Implemented 4 versions of a basic Neural Network using Tensorflow to predict cab fares for every time bracket of the day with 4 different data cleaning methods, resulting in the best output of a Root Mean Squared Error of 2.7 among the 4, placing us in the top 5 Kaggle submissions among almost 1500 submissions.
+
+      - title: Optimization Library
+        link: https://github.com/ahujaradhika/optimization
+        tagline: Developed a simple optimization library in Python to implement several optimization algorithms like gradient descent, Newton’s method, and conjugate-gradient methods.
+
       - title: ChartJS-UI
         link: "https://github.com/dailybruin/internal-tools.sprint.graphmaker#running-backend"
         tagline: "A tool to create responsive and interactive charts using ChartJS with a web app that lets you enter a dataset and produces an interactive chart, and a developer version that offers command line tools for more advanced options. Developed initially as an in-house tool for The Stack, UCLA's online data journalism website, with the goal to eventually be an open-source tool available to all"
@@ -107,6 +117,11 @@ publications:
     title: Data Journalism and Writing
     intro: |
     papers:
+      - title: Modeling the Spread of COVID-19 in UCLA Classrooms
+        link: https://stack.dailybruin.com/2020/05/12/covid-model/
+        authors: Writer/Developer
+        conference: Developed a network of student interactions in classroom using stochastic block models and the NetworkX library in Python, and implemented an SIR model in Javascript using a D3 network to animate 10 weeks of coronavirus spread. 
+
       - title: Visualizing Los Angeles Hospitals, and Simulating COVID-19 on an Unprotected UCLA
         link: "https://stack.dailybruin.com/2020/04/20/covid-hospitals/"
         authors: Writer/Developer
@@ -163,4 +178,7 @@ skills:
         level: 0%
 
       - name: Linux/Bash, Git, Shell Scripting, GDB, Vim, QGIS
+        level: 0%
+
+      - name: Flask, Django, Jekyll, AWS, Jaeger
         level: 0%
