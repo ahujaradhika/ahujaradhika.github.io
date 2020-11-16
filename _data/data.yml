@@ -19,7 +19,7 @@ sidebar:
     github: ahujaradhika
     gitlab:
     bitbucket:
-    twitter: https://twitter.com/RadhikaAhuja10
+    twitter: \@RadhikaAhuja10
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -46,7 +46,7 @@ experiences:
          - Mounted AWS FSx for Lustre onto Kubernetes to allow running data-heavy financial 
          models through the API among other feature implementations and bug fixes.
     - role: Developer
-      time: September, 2019 - present
+      time: September, 2019 - June 2020
       company: The Daily Bruin (The Stack), Los Angeles
       details: |
         - Develop stories related to student-related issues and use data to offer analysis and visualizations.
@@ -87,7 +87,7 @@ projects:
 
       - title: NYC Taxi-Cab Ride Fare Predictions
         link: https://github.com/ahujaradhika/nyc-taxi-fare-prediction
-        tagline: Implemented 4 versions of a basic Neural Network using Tensorflow to predict cab fares for every time bracket of the day with 4 different data cleaning methods, resulting in the best output of a Root Mean Squared Error of 2.7 among the 4, placing us in the top 5 Kaggle submissions among almost 1500 submissions.
+        tagline: Implemented 4 versions of a basic Neural Network using Tensorflow to predict cab fares for every time bracket of the day with 4 different data cleaning methods, resulting in the best output of a Root Mean Squared Error of 2.7 among the 4, placing it in the top 5 Kaggle submissions among almost 1500 submissions.
 
       - title: Optimization Library
         link: https://github.com/ahujaradhika/optimization
@@ -103,7 +103,7 @@ projects:
 
       - title: ElmoBot
         link: "https://github.com/ahujaradhika/elmo"
-        tagline: "Developed a chatbot that matches you to the movie character you are most like using IBM Watson’s Assistant API, Personality Insights API and IBM Cloudant in Python - Scraped thousands of movie scripts, separated each character’s dialogue and fed to the Personality Insights API. Similarly, generated Personality Insights using user conversation with the chatbot - Wrote a least squares algorithm to match the movie personality user is most similar to"
+        tagline: "Developed a chatbot that matches you to the movie character you are most like using IBM Watson’s Assistant API, Personality Insights API and IBM Cloudant in Python - Scraped thousands of movie scripts, separated each character’s dialogue and fed it to the Personality Insights API. Similarly, generated Personality Insights using user conversation with the chatbot - Wrote a least squares algorithm to match the movie personality user is most similar to"
 
       - title: Focusbunny
         link: "https://ahujaradhika.github.io/focusbunny/index.html"
