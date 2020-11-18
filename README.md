@@ -1,4 +1,4 @@
-# Shannon's Personal Website
+# Personal Website
 
 ### Running Locally:
 1. Run `bundle exec jekyll serve`
