@@ -1,0 +1,7 @@
+---
+title: "Analyzing Crime in Los Angeles"
+link: "https://medium.com/@ucladatares/visualizations-on-crime-in-los-angeles-7013cd8f9c8b"
+description: "Worked with a dataset about crime in LA to derive meaningful insights and present a Medium post. Used Python libraries like pandas and matplotlib to describe factors that make you more likely to get arrested, including time, age, location and gender with highest frequency of arrests and a heatmap describing spread of crime created using ggplot in R." 
+image: "crime-la.png"
+tags: [journalism]
+---

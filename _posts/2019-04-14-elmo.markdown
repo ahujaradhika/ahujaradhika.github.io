@@ -1,0 +1,7 @@
+---
+title: "ElmoBot"
+link: "https://github.com/ahujaradhika/elmo"
+description: "Developed a chatbot that matches you to the movie character you are most like using IBM Watson’s Assistant API, Personality Insights API and IBM Cloudant in Python - Scraped thousands of movie scripts, separated each character’s dialogue and fed it to the Personality Insights API. Similarly, generated Personality Insights using user conversation with the chatbot - Wrote a least squares algorithm to match the movie personality user is most similar to"
+image: elmobot.png"
+tags: [project]
+---

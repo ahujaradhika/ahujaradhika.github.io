@@ -1,8 +1,45 @@
 ---
-
 ---
 
-@charset "utf-8";
+@import "base";
 
-@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
-@import "default"; // main partials
+$personal-site-font-family: 'Crimson Text';
+$title-font-family: 'Raleway';
+$title-color: #515151;
+
+.section-content {
+	font-family: $personal-site-font-family;
+}
+
+.section-title {
+	h1 {
+		display: inline;
+		font-family: $title-font-family;
+	}
+	aside {
+		float: right;
+		font-size: 2em;
+	}
+}
+
+.project-card {
+	font-family: $title-font-family;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	padding: 20px;
+	line-height: 1.4;
+	.title {
+		font-size: 24px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+		font-family: $title-font-family;
+		font-weight: bold;
+		color: $title-color;
+	}
+	.image {
+		width: 100%;
+	}
+	.description {
+		font-size: 18px;
+	}
+}

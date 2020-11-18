@@ -1,0 +1,7 @@
+---
+title: "Squad"
+link: "https://github.com/ahujaradhika/call-me-maybe"
+description: " Winner of Spectra Hackathon 2019, Best Use of HERE API, Squad is a web app that captures your location to connect you with registered callers nearby in case of an emergency or for support if you are walking home alone, or it lets you call the closest police station."
+image: "squad.png"
+tags: [project]
+---

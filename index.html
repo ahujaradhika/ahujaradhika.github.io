@@ -1,18 +1,26 @@
+--- 
+layout: base 
 ---
-layout: default
----
 
+<div class="section-title">
+	<h1>About Me</h1>
+</div>
+{% include about.html %}
 
-{% include career-profile.html %}
+<div class="section-title">
+	<h1>Selected Work</h1>
+</div>
+<section class="section-content" style="padding-top: 30px;">
+	<div class="pure-g">
+		{% for project in site.tags['selected'] %}
+		<div class="pure-u-1 pure-u-md-1-2">
+			<div class="post project-card">
+				<a href="{{project.link}}" target="_blank" class="title"><p class="title">{{project.title}}</p></a>
+				<img class="image" src="/assets/img/{{project.image}}" />
+				<p class="description">{{project.description}}</p>
+			</div>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+		</div>
+		{% endfor %}
+	</div>
+</section>

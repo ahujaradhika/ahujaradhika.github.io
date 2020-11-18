@@ -1,0 +1,23 @@
+---
+layout: base
+title: Data Journalism
+permalink: /data-journalism/
+---
+
+<div class="section-title">
+    <h1>Data Journalism</h1>
+</div>
+
+<section class="section-content" style="padding-top: 30px;">
+    <div class="pure-g">
+        {% for project in site.tags['journalism'] %}
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="post project-card">
+                <a href="{{project.link}}" target="_blank" class="title"><p class="title">{{project.title}}</p></a>
+                <img class="image" src="/assets/img/{{project.image}}" />
+                <p class="description">{{project.description}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

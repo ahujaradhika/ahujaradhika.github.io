@@ -1,0 +1,7 @@
+---
+title: "Predicting NYC Cab Fares"
+link: "https://github.com/ahujaradhika/nyc-taxi-fare-prediction"
+description: "Implemented 4 versions of a basic Neural Network using Tensorflow to predict cab fares for every time bracket of the day with 4 different data cleaning methods, resulting in the best output of a Root Mean Squared Error of 2.7 among the 4, placing it in the top 5 Kaggle submissions among almost 1500 submissions."
+image: "nyc-cabs.png"
+tags: [selected, project]
+---
